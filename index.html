@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The STRONG Operator Cohort - Adam Bensman</title>
+<meta name="description" content="The 8-week mentorship for elite roofing sales reps, sub-$5M roofing company owners, and storm specialists adding a retail revenue lane. Built by Adam Bensman, 13+ years in roofing sales, former Roofing Company COO, Owens Corning Official Sales Training Partner, founder of the Roofing STRONG Alliance.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="The STRONG Operator Cohort - Adam Bensman">
+<meta property="og:description" content="The Roof Strategist courses are the pre-sell. The cohort is the install. 25-seat cap per cycle.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://andrei170.github.io/adam-bensman-landing/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--bg-deep:#050506;--bg-elev:#0e0e10;--bg-card:rgba(20,20,24,0.7);--accent:#d4af6c;--accent-bright:#ecc88a;--text-primary:#ece9e3;--text-secondary:#a09c93;--text-muted:#6c685f;--border:rgba(212,175,108,0.18);--border-strong:rgba(212,175,108,0.45);--accent-soft:rgba(212,175,108,0.08)}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg-deep);color:var(--text-primary);line-height:1.6;overflow-x:hidden}
+  body::before{content:'';position:fixed;inset:0;background:radial-gradient(circle at 10% 0%,rgba(212,175,108,0.07),transparent 50%),radial-gradient(circle at 90% 100%,rgba(212,175,108,0.05),transparent 50%);pointer-events:none;z-index:0}
+  .container{max-width:1100px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  .container-narrow{max-width:780px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1.15}
+  nav{position:fixed;top:0;left:0;right:0;padding:16px 0;background:rgba(5,5,6,0.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:100}
+  .nav-inner{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 28px}
+  .logo{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;letter-spacing:0.04em}
+  .nav-cta{padding:10px 22px;background:var(--accent);color:var(--bg-deep);border-radius:2px;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none}
+  .nav-cta:hover{background:var(--accent-bright)}
+  .hero{padding:130px 0 50px;text-align:center}
+  .hero .container{text-align:center}
+  .eyebrow{display:inline-block;padding:8px 18px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent-bright);margin-bottom:28px}
+  .hero h1{font-size:clamp(38px,5.5vw,68px);line-height:1.1;margin:0 auto 20px;max-width:880px;text-align:center;text-wrap:balance}
+  .hero h1 em{color:var(--accent);font-style:italic;font-weight:400}
+  .hero-sub{font-size:18px;color:var(--text-secondary);max-width:680px;margin:0 auto 32px;line-height:1.65;text-align:center;text-wrap:pretty}
+  .hero-meta{text-align:center;margin:0 auto 40px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-muted)}
+  .hero-meta span{margin:0 14px}
+  .video-label{text-align:center;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+  .video-wrap{position:relative;padding-bottom:56.25%;margin:0 auto 14px;max-width:880px;border-radius:6px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:0 30px 80px rgba(0,0,0,0.6);background:linear-gradient(135deg,#0e0e10,#050506);cursor:pointer}
+  .video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+  .video-poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at center,rgba(212,175,108,0.18),transparent 60%),linear-gradient(135deg,#0e0e10,#050506)}
+  .video-poster .play-btn{position:absolute;width:84px;height:84px;border-radius:50%;background:rgba(212,175,108,0.92);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(212,175,108,0.5);transition:all 0.3s ease;border:3px solid rgba(255,255,255,0.95)}
+  .video-wrap:hover .video-poster .play-btn{transform:scale(1.08);background:var(--accent-bright)}
+  .video-poster .play-btn::after{content:"";display:block;width:0;height:0;border-style:solid;border-width:14px 0 14px 24px;border-color:transparent transparent transparent #050506;margin-left:6px}
+  .video-poster .video-source-label{position:absolute;bottom:14px;right:18px;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-secondary);background:rgba(0,0,0,0.65);padding:6px 12px;border-radius:2px}
+  .video-note{font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em;margin:0 auto 32px;max-width:680px;line-height:1.55;text-align:center}
+  .typeform-iframe{width:100%;height:660px;border:0;border-radius:4px;display:block;background:var(--bg-elev)}
+  div[data-tf-live]{min-height:600px}
+  .cta-primary{display:inline-block;padding:18px 44px;background:var(--accent);color:var(--bg-deep);border-radius:3px;font-size:14px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease;box-shadow:0 12px 30px rgba(212,175,108,0.25)}
+  .cta-primary:hover{background:var(--accent-bright);transform:translateY(-2px)}
+  .cta-wrap{text-align:center}
+  section{padding:80px 0}
+  .section-eyebrow{font-size:11px;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:18px;text-align:center}
+  .section-title{font-size:clamp(32px,4.5vw,52px);margin-bottom:18px;text-align:center}
+  .section-title em{color:var(--accent);font-style:italic;font-weight:400}
+  .section-intro{font-size:17px;color:var(--text-secondary);max-width:680px;margin:0 auto 56px;line-height:1.65;text-align:center}
+  .section-intro em{color:var(--accent);font-style:italic}
+  .who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1000px;margin:0 auto}
+  @media(max-width:760px){.who-grid{grid-template-columns:1fr}}
+  .who-card{padding:36px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px}
+  .who-card .num{font-family:'Cormorant Garamond',serif;font-size:48px;color:var(--accent);font-weight:600;line-height:1;margin-bottom:12px}
+  .who-card h3{font-size:21px;margin-bottom:12px;color:var(--text-primary)}
+  .who-card p{color:var(--text-secondary);font-size:14px;line-height:1.7}
+  .pillar-list{max-width:880px;margin:0 auto}
+  .pillar{padding:36px 32px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;margin-bottom:18px}
+  .pillar .pillar-num{font-family:'Cormorant Garamond',serif;font-size:14px;color:var(--accent);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:10px;font-weight:600}
+  .pillar h3{font-size:26px;margin-bottom:14px;color:var(--text-primary)}
+  .pillar .outcome{font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--accent-bright);font-style:italic;line-height:1.4;margin-bottom:14px}
+  .pillar p{color:var(--text-secondary);font-size:15px;line-height:1.7}
+  .work-note{margin:48px auto 0;padding:24px 28px;max-width:780px;text-align:center;font-style:italic;color:var(--text-secondary);font-size:15px;line-height:1.7;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .founder-block{display:flex;flex-direction:column;gap:36px;max-width:880px;margin:0 auto;align-items:center}
+  .founder-text{width:100%;text-align:left}
+  .founder-text .name-loc{font-size:13px;color:var(--accent);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:14px}
+  .founder-text h3{font-size:32px;margin-bottom:18px}
+  .founder-text .key-quote{font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--text-primary);font-style:italic;line-height:1.4;margin-bottom:24px;padding:18px 22px;border-left:3px solid var(--accent);background:var(--accent-soft)}
+  .founder-text .key-quote em{color:var(--accent);font-style:italic}
+  .founder-text p{color:var(--text-secondary);font-size:15px;line-height:1.75;margin-bottom:14px}
+  .founder-text .key-statement{font-weight:600;color:var(--text-primary);font-size:16px;margin:18px 0;line-height:1.6}
+  .founder-text ul{list-style:none;padding:0;margin:18px 0 0 0}
+  .founder-text li{padding:6px 0;color:var(--text-secondary);font-size:14px;border-bottom:1px solid var(--border)}
+  .founder-text li:last-child{border-bottom:0}
+  .founder-text li::before{content:"\00B7";color:var(--accent);margin-right:10px;font-weight:bold}
+  .founder-text .trust-badge{display:inline-block;margin-top:20px;padding:8px 14px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:12px;color:var(--accent-bright);letter-spacing:0.08em}
+  .receipts-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1080px;margin:0 auto}
+  @media(max-width:760px){.receipts-wall{grid-template-columns:1fr}}
+  .receipt{padding:28px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;font-style:italic;color:var(--text-secondary);font-size:14px;line-height:1.65}
+  .receipt .name{display:block;margin-top:14px;font-style:normal;color:var(--accent);font-size:13px;letter-spacing:0.06em;font-weight:600}
+  .receipts-note{text-align:center;margin-top:36px;font-size:13px;color:var(--text-muted);font-style:italic;max-width:680px;margin-left:auto;margin-right:auto;line-height:1.7}
+  .faq{max-width:780px;margin:0 auto}
+  .faq-item{padding:26px 0;border-bottom:1px solid var(--border)}
+  .faq-item h3{font-size:20px;margin-bottom:12px;color:var(--text-primary);text-align:left}
+  .faq-item p{color:var(--text-secondary);font-size:15px;line-height:1.7}
+  .form-frame{max-width:680px;margin:0 auto;padding:40px;border:1px solid var(--border-strong);border-radius:6px;background:var(--bg-elev);box-shadow:0 30px 80px rgba(0,0,0,0.5)}
+  .form-frame h3{font-size:26px;margin-bottom:8px;text-align:center}
+  .form-frame p{color:var(--text-secondary);font-size:14px;text-align:center;margin-bottom:24px}
+  .final-cta-section{text-align:center;padding:100px 0}
+  .final-cta-section h2{font-size:clamp(32px,4vw,46px);margin-bottom:24px;max-width:780px;margin-left:auto;margin-right:auto}
+  .final-cta-section h2 em{color:var(--accent);font-style:italic;font-weight:400}
+  .final-cta-section p{font-size:17px;color:var(--text-secondary);max-width:580px;margin:0 auto 36px;line-height:1.65}
+  .final-cta-section .tagline{margin-top:48px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;color:var(--text-primary)}
+  .application-note{font-size:13px;color:var(--text-muted);margin-top:18px;letter-spacing:0.06em;font-style:italic}
+  footer{padding:40px 0;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:13px}
+  footer .footer-meta{font-size:12px;letter-spacing:0.04em}
+  footer .footer-disclaimer{margin-top:14px;font-size:11px;color:var(--text-muted);font-style:italic;max-width:780px;margin-left:auto;margin-right:auto;line-height:1.6}
+</style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<div class="logo">The STRONG Operator Cohort</div>
+<a href="#enrol" class="nav-cta">Apply</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="eyebrow">The STRONG Operator Cohort - An 8-Week Mentorship By Adam Bensman</div>
+<h1>The Roof Strategist courses are the pre-sell. <em>The cohort is the install.</em></h1>
+<p class="hero-sub">An 8-week mentorship for elite roofing sales reps, sub-$5M roofing company owners, and storm specialists adding a retail revenue lane. D2D and storm-damage closing systems, recruiting and retention, branch P and L plus ops, personal-brand and content compounding. Built by a 13-year operator who started in D2D, built into the COO chair at a multi-state restoration company, and runs the Roof Strategist plus the Roofing STRONG Alliance today.</p>
+<p class="hero-meta"><span>Cohort Cap 25</span>&middot;<span>Quarterly Cycles</span>&middot;<span>By Application</span></p>
+<div class="video-label">A Sample From Adam's YouTube</div>
+<div class="video-wrap" id="hero-video" role="button" tabindex="0" aria-label="Play sample video">
+<div class="video-poster">
+<div class="play-btn"></div>
+<span class="video-source-label">Sample - 10 Second Pitch For Roofing Sales</span>
+</div>
+</div>
+<p class="video-note">Sample video pulled from Adam's The STRONG Roofer YouTube channel to help visualise the cohort voice. Swap to a custom 5-7 minute cohort VSL on day one of the install.</p>
+<div class="cta-wrap"><a href="#enrol" class="cta-primary">Apply To Enrol</a></div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">Who This Is For</div>
+<h2 class="section-title">If your rep ramp or your roofing operation is stuck, <em>the bottleneck is one of four things.</em></h2>
+<div class="who-grid">
+<div class="who-card">
+<div class="num">01</div>
+<h3>The Elite Roofing Sales Rep</h3>
+<p>Currently a D2D or storm-damage rep at a small-to-mid roofing company. Personal commission $200K-$500K. No team yet, or 1-2 direct reports building under you. The cohort walks your role in week 2 and names the leadership bottleneck so you stop guessing what the next move is.</p>
+</div>
+<div class="who-card">
+<div class="num">02</div>
+<h3>The Sub-$5M Roofing Company Owner</h3>
+<p>You own a roofing company at $1MM-$5MM annual revenue. Team of 5-15 producers (canvassers, closers, project managers, supplementers). The ceiling has held for the last 6-12 months. The cohort surfaces a recruiting SOP rewrite and a branch P and L rewrite that fits your operation.</p>
+</div>
+<div class="who-card">
+<div class="num">03</div>
+<h3>The Storm Specialist Adding Retail</h3>
+<p>Strong on insurance work, weaker on retail. Revenue volatile by season and geography. You want a retail playbook to flatten the curve. The cohort gives you the four playbooks before you launch the retail funnel.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:linear-gradient(180deg,transparent,rgba(212,175,108,0.04),transparent)">
+<div class="container">
+<div class="section-eyebrow">The Work</div>
+<h2 class="section-title">Four modules. <em>Eight weeks.</em></h2>
+<p class="section-intro">No video-on-demand library. The whole thing is built around weekly live group calls and scheduled office hours.</p>
+<div class="pillar-list">
+<div class="pillar">
+<div class="pillar-num">Module One &middot; Weeks 1-2</div>
+<h3>D2D + Storm-Damage Closing Systems</h3>
+<p class="outcome">By the end of week 2, you have the pitch system, the objection map, and the closing cadence that fits your role, your neighbourhood, and your storm versus retail mix.</p>
+<p>The pitch system I have run for 13 years on the doors. The 10-Second-Pitch flagship cut walked at module depth. Objection handling for insurance work versus retail. How the Roof Strategist Sales System operationalises across all 50 states. Your specific doors go on the table. The pitch and the objection bank get pressure-tested on the live call.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Module Two &middot; Weeks 3-4</div>
+<h3>Recruiting + Retention</h3>
+<p class="outcome">By the end of week 4, your sourcing channels, vetting bar, and 90-day retention SOP are written, and your existing team has a hold-or-coach call on each name.</p>
+<p>Why reps ghost at month-3, and the SOP that holds them. The Build Your Dream Team material walked live. The retention conversation script. The post-launch rep review at week 6. How to read first-30-days door data and predict month-6 churn. Your specific team goes on the underwriting table. The hold-or-coach call gets documented.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Module Three &middot; Weeks 5-6</div>
+<h3>Branch P and L + Ops</h3>
+<p class="outcome">By the end of week 6, your roofing branch P and L map, KPI cadence, and weekly operations rhythm are locked, with the next 1-2 hires scoped.</p>
+<p>The branch KPIs I track every week on every closer. The P and L map for a sub-$5M roofing branch and the same map for a $5MM-$13MM company. When to add a team lead versus when to stay flat. Office hours across timezones. Your operations doc gets the audit on the live call. The next 90-day plan gets written.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Module Four &middot; Weeks 7-8</div>
+<h3>Personal-Brand + Content Compounding</h3>
+<p class="outcome">By the end of week 8, you have a content cadence, a long-form authority lane, and a recruiting-flywheel system that compounds off your own brand.</p>
+<p>How The STRONG Roofer YouTube channel and the Roof Strategist Podcast compounded the Sales System across 50 states, Canada, Australia, and Sweden. The content cadence I keep and the one I cut. How to build a credible long-form authority lane on your own scale, even with a 500-follower starting point. Your content plan gets the live audit. The next 30 days of content get scheduled.</p>
+</div>
+</div>
+<p class="work-note">Live group call once a week with Adam. Two scheduled office-hours blocks per month for 1:1 questions. Private community channel for the 8 weeks. Templates, scripts, SOPs, recruiting docs, and branch P and L worksheets handed off as you complete each module.</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">About Adam</div>
+<h2 class="section-title">13 years. From D2D rep to COO to The Roof Strategist. <em>The courses are the pre-sell.</em></h2>
+<div class="founder-block">
+<div class="founder-text">
+<div class="name-loc">Adam Bensman &middot; Founder, The Roof Strategist + Roofing STRONG Alliance</div>
+<h3>About Adam</h3>
+<div class="key-quote">"The reason most reps stay stuck at sub-$200K commission and most roofing companies stay stuck at sub-$5M is almost never one thing. <em>It is one of four.</em>"</div>
+<p>Started in D2D roofing sales in 2011. Built into the COO chair at a multi-state $8MM/yr restoration company. Founded The Roof Strategist as the sales training brand, with the Sales System now in use across all 50 US states plus Canada, Australia, and Sweden. Named Official Sales Training Partner for Owens Corning. Authored The Roofing Sales Survival Guide, an Amazon best-seller in the roofing sales category. Founded the Roofing and Solar Reform Alliance, which TAMKO Building Products acquired on May 13, 2026 and relaunched as the Roofing STRONG Alliance by TAMKO. Continues leading the alliance with an expanded TAMKO role at the same time.</p>
+<p>Host of the Roof Strategist Podcast (weekly across Apple, Spotify, Audible, and Amazon Music). Runs The STRONG Roofer YouTube channel (renamed from The Roof Strategist post-acquisition, channel ID retained). Active on Instagram, TikTok, LinkedIn, and Facebook at @roofstrategist. Coaches and consults for $5MM-$13MM/yr roofing and restoration companies.</p>
+<p class="key-statement">The STRONG Operator Cohort is the install version of the operating system the Roof Strategist course catalogue introduces. The Marketing Battle Pack, Complete Sales Strategy, and Build Your Dream Team give you the playbooks. The cohort walks your specific operation.</p>
+<ul>
+<li>13+ years operating in roofing sales</li>
+<li>Started in D2D in 2011, former Roofing Company COO at a multi-state $8MM/yr restoration company</li>
+<li>Roof Strategist Sales System in use across all 50 US states plus Canada, Australia, and Sweden</li>
+<li>Owens Corning Official Sales Training Partner</li>
+<li>Founder of the Roofing STRONG Alliance by TAMKO (formerly RSRA)</li>
+<li>Author of The Roofing Sales Survival Guide on Amazon</li>
+<li>Host of the Roof Strategist Podcast &middot; The STRONG Roofer YouTube &middot; @roofstrategist across IG / TikTok / LinkedIn / Facebook</li>
+</ul>
+<span class="trust-badge">13+ Years &middot; Owens Corning Partner &middot; Roofing STRONG Alliance Founder</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="background:linear-gradient(180deg,transparent,rgba(212,175,108,0.04),transparent)">
+<div class="container">
+<div class="section-eyebrow">A Note On Receipts</div>
+<h2 class="section-title">A wall of voices, <em>built from real cohort members.</em></h2>
+<p class="section-intro">The cohort is in its first cycle. The receipts wall below is reserved for the named operators who walk the cohort. Real numbers and named voices swap in after the inaugural cohort runs. The deeper proof lives in the public catalogue (the 13-year operator record, the Owens Corning Official Sales Training Partner designation, the Roofing STRONG Alliance founding credential, the Sales System geographic reach across 50 states + Canada + Australia + Sweden, the Amazon book, and the multi-tens-of-thousands YouTube channel plus the weekly podcast across every major platform).</p>
+<div class="receipts-wall">
+<div class="receipt">Reserved for an inaugural cohort member, role and operation-named. Capture happens on the cohort wrap call.<span class="name">- Cohort 1 wall, slot reserved</span></div>
+<div class="receipt">Reserved for an inaugural cohort member, role and operation-named. Capture happens on the cohort wrap call.<span class="name">- Cohort 1 wall, slot reserved</span></div>
+<div class="receipt">Reserved for an inaugural cohort member, role and operation-named. Capture happens on the cohort wrap call.<span class="name">- Cohort 1 wall, slot reserved</span></div>
+</div>
+<p class="receipts-note">Placeholder receipts on a wall reserved for real Cohort 1 voices. The receipts swap in on the cohort wrap call after the inaugural 8-week cycle completes.</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">FAQ</div>
+<h2 class="section-title">Common questions, <em>before applying.</em></h2>
+<div class="faq">
+<div class="faq-item"><h3>How is this different from the Roof Strategist courses?</h3><p>The Marketing Battle Pack, Complete Sales Strategy, and Build Your Dream Team are the productised course tier. The cohort is the install version. The courses teach you what to look for; the cohort walks your specific role, your specific neighbourhood, your specific branch on a live group call. Many cohort members have run the Sales System on doors for a year first and come in already knowing the vocabulary.</p></div>
+<div class="faq-item"><h3>Is this the Roofing STRONG Alliance?</h3><p>No. The cohort is sales operations and team-build training on Adam's owned funnel. The Roofing STRONG Alliance by TAMKO is the application-only contractor community at strongbytamko.com, with membership free for TAMKO Edge contractors. The cohort grads who qualify route into the alliance application as the natural high-touch back-end. The cohort feeds the alliance; the cohort does not replace it.</p></div>
+<div class="faq-item"><h3>How fast will I see results?</h3><p>Most cohort members name their primary bottleneck in week 1 and have the first SOP rewritten by week 3. The recruiting or retention rewrite lands by week 6. The full branch P and L map lands by week 8. Results vary, dependent on your current role, the time you invest in office hours, and your team quality.</p></div>
+<div class="faq-item"><h3>Is this a course?</h3><p>No. It is mentorship. Weekly live group calls with Adam, scheduled office-hours blocks for 1:1 questions, private community channel for the 8 weeks. There is no video-on-demand library to fall behind on.</p></div>
+<div class="faq-item"><h3>What is the time commitment?</h3><p>3-4 hours per week for 8 weeks. One live group call per week (60-90 min). Office hours optional. The work between calls is your real role or operation, not homework.</p></div>
+<div class="faq-item"><h3>What is the investment?</h3><p>Two tiers in the mid-tier mentorship range. Standard tier covers the 8-week cohort, weekly group calls, office hours, and templates. Standard-plus-operating-review tier adds a 1:1 review of your existing role or operation and three follow-up 1:1 calls in the 90 days post-cohort. Hint range, not an invoice. The application surfaces exact pricing for the cycle you apply to.</p></div>
+<div class="faq-item"><h3>What if I am still a rep, not an owner?</h3><p>The elite rep is one of the three primary avatars. Week 1 starts at sales-floor cadence and weekly closing metrics. Week 8 ends at a 90-day plan for the team-build move you want next.</p></div>
+<div class="faq-item"><h3>What if I already run a $5M-$13M roofing company?</h3><p>The cohort handles the scaling case. Week 5-6 walks branch P and L for a $5MM-$13MM operation. Week 7-8 walks the personal-brand-as-leverage layer that compounds the recruiting flywheel. The standard-plus-operating-review tier adds a 1:1 audit of your existing branch and three follow-up 1:1 calls post-cohort.</p></div>
+<div class="faq-item"><h3>How does this work with Adam's 1-1 consulting?</h3><p>The cohort is the productised mid-tier. If you want continued mentorship after the cohort, that route is the 1-1 consulting. If you want the high-touch contractor community, that route is the Roofing STRONG Alliance application at strongbytamko.com. The cohort feeds both; it does not replace either.</p></div>
+<div class="faq-item"><h3>Refund policy?</h3><p>Yes. Complete the first two weeks, decide it is not for you, full refund within 14 days of cohort kickoff. No questions. The same 30-day money-back guarantee Adam runs on the Marketing Battle Pack applies to the cohort.</p></div>
+<div class="faq-item"><h3>Why do I have to apply?</h3><p>You do not have to. The application form is four minutes and it just helps size cohorts and route the office-hours topics to what is actually on members' desks this cycle. Submit the form, you get straight to enrolment, no setter calls, no back-and-forth.</p></div>
+</div>
+</div>
+</section>
+
+<section id="enrol" style="background:linear-gradient(180deg,transparent,rgba(212,175,108,0.04),transparent)">
+<div class="container-narrow">
+<div class="section-eyebrow">Enrol</div>
+<h2 class="section-title">Join the next cohort.</h2>
+<p class="section-intro">Four-minute application. Cohort cycles run quarterly and cap at 25 to keep the live group call real.</p>
+<div class="form-frame">
+<h3>The STRONG Operator Cohort - Application</h3>
+<p>Four minutes to fill in. We will get back to you within 48 hours.</p>
+<div data-tf-live="01HZJC9QM2RSPZSYAH4Z5NGBM7"></div>
+<noscript><iframe src="https://form.typeform.com/to/uTtFirS4" class="typeform-iframe" title="The STRONG Operator Cohort Application"></iframe></noscript>
+</div>
+<p style="text-align:center;margin-top:24px;font-size:13px;color:var(--text-muted)">Or book a working session with Andrei (AG1) directly: <a href="https://calendly.com/ag-copy/call-with-andrei" style="color:var(--accent)">calendly.com/ag-copy/call-with-andrei</a></p>
+</div>
+</section>
+
+<section>
+<div class="container-narrow">
+<div class="final-cta-section">
+<h2>If the courses are the marketing, this is the <em>install.</em></h2>
+<p>Application takes four minutes. After you submit, you will pick a time directly from the cohort calendar. No setter calls. No back-and-forth. Straight to enrolment.</p>
+<div class="cta-wrap"><a href="#enrol" class="cta-primary">Apply To Enrol</a></div>
+<p class="application-note">Four-minute form &middot; Direct enrolment on submit</p>
+<p class="tagline">The Roof Strategist courses are the pre-sell. The cohort is the install.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p class="footer-meta">The STRONG Operator Cohort &middot; Adam Bensman &middot; 2026</p>
+<p class="footer-disclaimer">Sample landing page built by AG1 Consulting in AG1 brand colours. Brand colours and copy lock with Adam on day one of the install. The STRONG Operator Cohort is sales operations and team-build training, not a roofing license or a contractor certification; the Roofing STRONG Alliance by TAMKO is a separate application-only contractor community at strongbytamko.com, with membership free for TAMKO Edge contractors. Results vary, dependent on operator inputs (current role, team quality, recruiting cadence, branch operations, market conditions, storm season, regional licensing). Figures referenced on this page are floors and ranges from Adam's stated 13-year operating record building The Roof Strategist, not guarantees on cohort outcomes or roofing-license outcomes. Roofing licensure is regulated at the state level and varies by jurisdiction; the cohort does not certify, license, or qualify anyone for state-regulated roofing work.</p>
+</div>
+</footer>
+
+<script src="//embed.typeform.com/next/embed.js"></script>
+<script>
+(function(){
+  var v = document.getElementById('hero-video');
+  if(!v) return;
+  function load(){
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube.com/embed/-U2Khv2L7x8?autoplay=1&rel=0';
+    iframe.setAttribute('allow','accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+    iframe.setAttribute('allowfullscreen','');
+    iframe.frameBorder = '0';
+    v.innerHTML = '';
+    v.appendChild(iframe);
+  }
+  v.addEventListener('click', load);
+  v.addEventListener('keydown', function(e){
+    if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); load(); }
+  });
+})();
+</script>
+</body>
+</html>
